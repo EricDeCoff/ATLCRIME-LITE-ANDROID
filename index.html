@@ -1,0 +1,76 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>ATLCRIME - JQM</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <!--Font-Awesome -->
+    <link rel="stylesheet" href="./fa/css/font-awesome.css">    
+    
+    <!-- Custom Fonts -->
+
+    <link rel="stylesheet" href="./css/style.min.css">
+</head> 
+<body>
+    <div data-role="page" class="jqm-home" id="page-options">
+        <div role="main" class="ui-content jqm-content" id="ac-options">
+       </div>
+    </div>
+
+    <div data-role="page" class="jqm-loading" id="page-loading" data-theme="b">
+        <div role="main" class="ui-content jqm-content" id="ac-loading">
+            <div id="bgImg"></div>
+        </div>
+    </div>
+    
+    <div data-role="page" class="jqm-no-signal" id="page-no-signal" data-theme="b">
+        <div role="main" class="ui-content jqm-content" id="ac-no-signal">
+            <div id="bg-no-signal"></div>
+        </div>
+    </div>  
+
+    <div data-role="page" class="jqm-results" id="page-results" data-theme="b">
+        <div role="content" class="ui-content jqm-results" id="ac-results"></div>
+    </div>
+
+    <div data-role="page" class="jqm-exit" id="page-exit" data-theme="b">
+        <div role="main" class="ui-content jqm-content" id="ac-exit"></div>
+    </div>
+
+    <div data-role="page" class="jqm-map" id="page-map" data-theme="a">
+        <div data-role="header"  data-theme="b" data-add-back-btn="true">
+            <h1>ATLCRIME</h1>
+	   </div>
+        <div role="main" class="ui-content jqm-content" id="ac-map">
+            <div id="map"></div>
+        </div>
+    </div>
+    
+    <div data-role="page" class="jqm-about" id="page-about" data-theme="a">
+        <div data-role="header"  data-theme="b" data-add-back-btn="true">
+            <h1>Information</h1>
+	   </div>
+        <div role="main" class="ui-content jqm-content" id="ac-about"></div>
+    </div>
+    
+    
+    <!-- scripts move to end to enhance page load time -->
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDOuDYoR-xICFmfZXI1jW-wYznTmQxQ_e8&sensor=true"></script>
+
+    <script src='intelxdk.js'></script>
+    
+    <!-- phonegap script -->
+    <script src="phonegap.js"></script>
+
+    <script src="bundle.min.js"></script>
+    
+    <script type="text/javascript">
+        app.initialize();
+        
+    </script>        
+</body>
+</html>
