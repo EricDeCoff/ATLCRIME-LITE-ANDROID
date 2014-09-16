@@ -5,7 +5,7 @@
     version="1.4.3" 
     versionCode = "143">
 
-    <name>ATL CRIME</name>
+    <name>ATL CRIME ( Android / Lite )</name>
 
     <description>
         Visually display crime-data supplied by the City of Atlanta
@@ -25,7 +25,14 @@
     <icon src="icon.png" /> <!-- default 512 pixels -->
     
     <!-- iOS6 -->
+
+
+
+
     <!-- iOS7 -->
+
+
+
         
     <icon src="platform/android/res/drawable-ldpi/appicon.png" gap:platform="android" gap:density="ldpi" />
     <icon src="platform/android/res/drawable-mdpi/appicon.png" gap:platform="android" gap:density="mdpi" /> 
@@ -34,17 +41,26 @@
     <icon src="platform/android/res/drawable-xxhdpi/appicon.png" gap:platform="android" gap:density="xxhdpi" /> 
     <icon src="platform/android/res/drawable-xxxhdpi/appicon.png" gap:platform="android" gap:density="xxxhdpi" />
         
+
+
         
     <!-- SPLASH SCREENS -->
         
     <gap:splash src="splash.png" />
         
     <!-- non retina -->
+
     <!-- retina 4 -->
+
     <!-- retina 5+ -->
+
         
     <!-- iPad non retina -->    
+
+
     <!-- iPad retina -->
+
+
         
     <!-- android splash -->    
     <!-- 200x320 -->        
@@ -58,9 +74,12 @@
         
     <!-- Windows Phone 7 480x800 -->
 
+
     <!-- PLATFORM SELECTION -->
 
+
     <gap:platform name="android" />
+
         
     <!-- GENERAL PREFERENCES -->
         
