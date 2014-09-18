@@ -1628,6 +1628,5 @@ html .ui-field-contain>label+.ui-flipswitch,html .ui-popup .ui-field-contain>lab
 .outline{-webkit-text-stroke:1px #000;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000}
 .ui-icon-globe:after{-webkit-filter:invert(100%)}
 #map{display:none;margin:0!important;padding:0!important;position:absolute;height:100%;width:100%;left:0;top:0;bottom:0}
-#bgImg{padding:0;position:absolute!important;top:0!important;right:0;bottom:0!important;left:0!important;background:url(./img/gif.gif) center center/100% no-repeat;-webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%}
-#bg-no-signal{padding:0;position:absolute!important;top:0!important;right:0;bottom:0!important;left:0!important;background:url(./img/noSignal.gif) center center/100% no-repeat;-webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%}
+#bg-no-signal{padding:0;position:absolute!important;top:0!important;right:0;bottom:0!important;left:0!important;background:url(../img/noSignal.gif) center center/100% no-repeat;-webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%}
 body,html{margin:0;padding:0;height:100%}
