@@ -32,9 +32,16 @@
     </div>
     
     <div data-role="page" class="jqm-no-signal" id="page-no-signal" data-theme="b">
-        <div data-role="header"  data-theme="b" data-add-back-btn="true">
-            <h1>404 Error</h1>
-	   </div>
+        <div data-role="header">
+            <div data-role="controlgroup" data-type="horizontal" style="text-align:center;">
+                    <a class="ui-btn-left ui-btn ui-btn-icon-left ui-shadow ui-btn-up-a" 
+                       data-role="button"
+                       data-icon="arrow-l" data-theme="a" data-mini="true" 
+                       href="#page-options"><i class="fa fa-arrow-left"></i>
+                       &nbsp;Back</a>
+                    <strong>404 Error</strong>
+            </div>
+	    </div>
         <div role="main" class="ui-content jqm-content" id="ac-no-signal">
             <div id="ac-no-signal"></div>
         </div>
